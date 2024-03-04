@@ -140,7 +140,7 @@ public class ManHinhGiaiPT extends JFrame {
             kq1.setText(String.valueOf(x1));
             kq2.setText(String.valueOf(x2));	
         } else if (delta == 0) {
-            x1 = (-B / (2 * B));
+            x1 = (-B / (2 * A));
             x2= x1;
             a.setText("");
 			b.setText("");
